@@ -2,12 +2,14 @@
 package main
 
 //import format package
-import ("fmt")
+import "fmt"
 
 //main method
 func main() {
-	var a,b int
-	a,b = 10,20 
-	result := a+b //this : replace to var
-	fmt.Print(result)
+	hello()
+}
+
+//function
+func hello() {
+	fmt.Println("Hello.! Golang")
 }
